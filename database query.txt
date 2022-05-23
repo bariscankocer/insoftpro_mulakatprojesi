@@ -1,0 +1,45 @@
+USE [abone_model]
+GO
+/****** Object:  Table [dbo].[aboneler]    Script Date: 23.05.2022 15:01:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[aboneler](
+	[id] [int] NOT NULL,
+	[Numara] [int] NOT NULL,
+	[Acilis_Tarih] [nvarchar](50) NULL,
+	[Adres] [nvarchar](50) NULL,
+	[Ad_Soyad] [nvarchar](50) NULL,
+	[Tarife_Para_Birim_id] [nvarchar](50) NOT NULL,
+	[Kdv_Oran_Id] [nvarchar](50) NOT NULL,
+ CONSTRAINT [PK_aboneler] PRIMARY KEY CLUSTERED 
+(
+	[Numara] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[endeks]    Script Date: 23.05.2022 15:01:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[endeks](
+	[id] [int] NOT NULL,
+	[Hesaplama_Tarih] [datetime] NULL,
+	[Tarife_Para_Birim_id] [nvarchar](50) NOT NULL,
+	[Kdv_Oran_Id] [nvarchar](50) NOT NULL,
+	[Tarife_Birim_Fiyat] [decimal](18, 0) NULL,
+	[Hesaplama_Türü] [nvarchar](50) NULL,
+	[İlk_Endeks] [decimal](18, 0) NULL,
+	[Son_Endeks] [decimal](18, 0) NULL,
+	[Tuketim] [decimal](18, 0) NULL,
+	[Tarife_Toplam_Fiyat] [decimal](18, 0) NULL,
+	[Tarife_Kdv_Fiyat] [decimal](18, 0) NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[endeks]  WITH CHECK ADD  CONSTRAINT [FK_endeks_aboneler] FOREIGN KEY([id])
+REFERENCES [dbo].[aboneler] ([Numara])
+GO
+ALTER TABLE [dbo].[endeks] CHECK CONSTRAINT [FK_endeks_aboneler]
+GO
