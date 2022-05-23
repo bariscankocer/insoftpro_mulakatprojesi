@@ -1,0 +1,11 @@
+C:\Users\MA\source\repos\bariscankocer\insoftpro_mulakatpr\insoftpro_projesi2\insoftpro_projesi2\bin\Debug\insoftpro_projesi2.exe.config
+C:\Users\MA\source\repos\bariscankocer\insoftpro_mulakatpr\insoftpro_projesi2\insoftpro_projesi2\bin\Debug\insoftpro_projesi2.exe
+C:\Users\MA\source\repos\bariscankocer\insoftpro_mulakatpr\insoftpro_projesi2\insoftpro_projesi2\bin\Debug\insoftpro_projesi2.pdb
+C:\Users\MA\source\repos\bariscankocer\insoftpro_mulakatpr\insoftpro_projesi2\insoftpro_projesi2\obj\Debug\insoftpro_projesi2.csprojAssemblyReference.cache
+C:\Users\MA\source\repos\bariscankocer\insoftpro_mulakatpr\insoftpro_projesi2\insoftpro_projesi2\obj\Debug\insoftpro_projesi2.Form1.resources
+C:\Users\MA\source\repos\bariscankocer\insoftpro_mulakatpr\insoftpro_projesi2\insoftpro_projesi2\obj\Debug\insoftpro_projesi2.Properties.Resources.resources
+C:\Users\MA\source\repos\bariscankocer\insoftpro_mulakatpr\insoftpro_projesi2\insoftpro_projesi2\obj\Debug\insoftpro_projesi2.csproj.GenerateResource.cache
+C:\Users\MA\source\repos\bariscankocer\insoftpro_mulakatpr\insoftpro_projesi2\insoftpro_projesi2\obj\Debug\insoftpro_projesi2.exe
+C:\Users\MA\source\repos\bariscankocer\insoftpro_mulakatpr\insoftpro_projesi2\insoftpro_projesi2\obj\Debug\insoftpro_projesi2.pdb
+C:\Users\MA\source\repos\bariscankocer\insoftpro_mulakatpr\insoftpro_projesi2\insoftpro_projesi2\obj\Debug\insoftpro_projesi2.aboneekle.resources
+C:\Users\MA\source\repos\bariscankocer\insoftpro_mulakatpr\insoftpro_projesi2\insoftpro_projesi2\obj\Debug\insoftpro_projesi2.endekshesaplama.resources
